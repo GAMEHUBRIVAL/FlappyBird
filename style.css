@@ -1,0 +1,60 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    background-image: url(flappybirdbg2.png);
+    
+   
+}
+
+#board {
+    /* background-color: skyblue; */
+    background-image: url("./flappybirdbg3.png");
+    border-radius: 20px;
+   box-shadow: 0px 20px 20px black;
+} 
+#scoreBoard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    background-color: red;
+    margin-top: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 10px 10px black;
+    font-family: 'Orbitron', sans-serif;
+    cursor: default;
+    
+  }
+  .flappy-bird{
+    position: absolute;
+    left: 65rem;
+    bottom:30rem;
+    background: linear-gradient(90deg, #000000, #565656);
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid white; 
+    cursor: default;
+  } 
+  .flappy-bird:hover{
+    color: black;
+    background:linear-gradient(90deg, #565656, #6c6a6a) ;
+    transition: 1s;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.3); /* Inner shadow */
+    
+  }
+
+
